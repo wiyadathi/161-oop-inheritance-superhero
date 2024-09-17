@@ -12,11 +12,11 @@ class IronMan : SuperHero
 
     public void Fly()
     {
-        Debug.Log($"{Name} is Fly");
+        Debug.Log($"{name} is Fly");
     }
 
     public void ShootLaser()
     {
-        Debug.Log($"{Name} is shooting lsers");
+        Debug.Log($"{name} is shooting lsers");
     }
 }

@@ -10,6 +10,8 @@ public class Main : MonoBehaviour
 
     void Start()
     {
+        ironman.Name = "";
+
         Debug.Log($"IronMan Name is : {ironman.Name} Hp is : {ironman.Hp} SuitColor is : {ironman.SuitColor}");
 
         Debug.Log($"CaptainAmeriaca Name is : {captainAmeriaca.Name} Hp is : {captainAmeriaca.Hp} SuitColor is : {captainAmeriaca.SuitColor}");
